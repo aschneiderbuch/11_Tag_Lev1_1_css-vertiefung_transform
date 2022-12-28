@@ -33,11 +33,9 @@ div{
 
 .div--transform:hover{
     transform-origin: bottom left;
+   
     transition-duration: 2s ;
-    transform: rotate(90deg);
-
-    animation-delay: 2s;
-    transition-duration: 2s;
-    transform: scale(2);
+    transform: rotate(90deg) scale(2);
+    
 
 }
